@@ -1,0 +1,138 @@
+Issue key,Issue Type,Summary,Description,Status,Project name,Project lead,Priority,Resolution,Creator,Assignee,Reporter,,Created,Updated,Resolved,Due date
+SCRUM-57,Bug,09.01 Create Expense Claim - Data-Driven Defaults Testing - No option to modify and check user preferences or organizational settings,"Expected Results:
+
+
+
+# Log in to the Xero application.
+
+Expected Result: The user successfully logs in without errors.
+
+# Navigate to the expense claim creation interface.
+
+Expected Result: The expense claim creation interface is accessible and loads correctly.
+
+# Inspect the default account selection.
+
+Expected Result: The default account for expense claim submission is pre-selected based on user preferences or organizational settings.
+
+# Inspect the default currency.
+
+Expected Result: The default currency for expense claim transactions is automatically populated according to user preferences or organizational settings.
+
+# Inspect default project assignment..
+
+Expected Result: The default project or cost center for expense claim allocation is pre-assigned based on user preferences or organizational settings.
+
+# Attempt to submit the expense claim without modifying default values.
+
+Expected Result: The expense claim submission is successful with default values accurately populated in the relevant fields.
+
+# Modify default values if necessary.
+
+Expected Result: The user can modify default values as needed without encountering any issues.
+
+# Submit the expense claim with modified or unchanged default values.
+
+Expected Result: The expense claim submission is successful, and default values, whether modified or unchanged, are correctly processed and recorded.
+
+# Visibility of expense claim details after submission.
+
+Expected Result: The submitted expense claim reflects the default values accurately in the system, ensuring data integrity and consistency.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,,Tarjanee Desai,,28/04/24 22:32,28/04/24 22:32,,
+SCRUM-56,Bug,"09.01 Create Expense Claim - Field Validation ""Description"" - Accepts Blank Spaces","Expected Results:
+
+# Enter special characters into the ""Description"" field.
+
+Expected Result: No error message is displayed.
+
+# Enter data exceeding the maximum allowed size into the ""Description"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""
+
+# Leave the ""Description"" field blank.
+
+Expected Result: No error message is displayed.
+
+# Enter blank spaces into the ""Description"" field.
+
+Expected Result: An error message is displayed: ""Cannot be empty.""
+
+# Enter the Description in lowercase letters.
+
+Expected Result: No error message is displayed.
+
+# Enter the Description in uppercase letters.
+
+Expected Result: No error message is displayed.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,,Tarjanee Desai,,28/04/24 22:30,28/04/24 22:30,,
+SCRUM-55,Bug,"08.02 Edit Purchase Order - Date Field Validation Error - Data Dependency Validation ""Date"" and ""Delivery Date""","Enter a Date that is later than the Delivery Date in the purchase order.
+
+Expected Result: The system should prevent the selection of a Date that is later than the Delivery Date, displaying an error message indicating the dependency between the two fields.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:11,22/04/24 19:26,,
+SCRUM-54,Bug,08.02 Edit Purchase Order - Field Validation Errors for Item Description Field,"# Enter special characters into the ""Item Description"" field.
+
+Expected Result: An error message is displayed: ""Invalid input. Special characters not allowed.""
+
+# Enter data exceeding the maximum allowed size into the ""Item Description"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""
+
+# Leave the ""Item Description"" field blank.
+
+Expected Result: An error message is displayed: ""Please fill all mandatory fields.""
+
+# Enter blank spaces into the ""Item Description"" field.
+
+Expected Result: No error message is displayed.
+
+# Enter the item description in lowercase letters.
+
+Expected Result: No error message is displayed.
+
+# Enter the item description in uppercase letters.
+
+Expected Result: No error message is displayed.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,,Tarjanee Desai,,22/04/24 19:10,22/04/24 19:25,,
+SCRUM-53,Bug,"08.02 Edit Purchase Order - Field Validation ""Reference""","The text limit validation check failed for Reference field.
+
+ 
+
+Enter data exceeding the maximum allowed size into the ""Reference"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:09,22/04/24 19:25,,
+SCRUM-52,Bug,"08.01 Create Purchase Order - Date Field Validation Error - Data Dependency Validation ""Date"" and ""Delivery Date""","Enter a Date that is later than the Delivery Date in the purchase order.
+
+Expected Result: The system should prevent the selection of a Date that is later than the Delivery Date, displaying an error message indicating the dependency between the two fields.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:06,22/04/24 19:27,,
+SCRUM-51,Bug,08.01 Create Purchase Order - Field Validation Errors for Item Description Field,"# Enter special characters into the ""Item Description"" field.
+
+Expected Result: An error message is displayed: ""Invalid input. Special characters not allowed.""
+
+# Enter data exceeding the maximum allowed size into the ""Item Description"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""
+
+# Leave the ""Item Description"" field blank.
+
+Expected Result: An error message is displayed: ""Please fill all mandatory fields.""
+
+# Enter blank spaces into the ""Item Description"" field.
+
+Expected Result: No error message is displayed.
+
+# Enter the item description in lowercase letters.
+
+Expected Result: No error message is displayed.
+
+# Enter the item description in uppercase letters.
+
+Expected Result: No error message is displayed.",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:03,22/04/24 19:26,,
+SCRUM-50,Bug,"Field Validation ""Reference""","The text limit validation check failed for Reference field. 
+
+
+
+Enter data exceeding the maximum allowed size into the ""Reference"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:01,22/04/24 19:02,,
+SCRUM-49,Bug,"08.01 Create Purchase Order - Field Validation ""Reference""","The text limit validation check failed for Reference field. 
+
+
+
+Enter data exceeding the maximum allowed size into the ""Reference"" field.
+
+Expected Result: An error message is displayed: ""Text limit exceeded.""",To Do,Team 3,Tarjanee Desai,Medium,,Tarjanee Desai,Tarjanee Desai,Tarjanee Desai,,22/04/24 19:01,22/04/24 19:26,,
